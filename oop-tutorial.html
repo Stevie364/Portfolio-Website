@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<head>
+    <title>Object Oriented Programming</title>
+    <html lang="en">
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href = "main.css">
+    <link rel = "stylesheet" href = "tutorials.css">
+    <link rel = "stylesheet" href = "code-stuff.css">
+</head>
+<body>
+    <div class = "header-container">
+        <header>
+            <div>
+                <a href="home.html" class = "logo nav">Michael Xu</a>
+             </div>
+             <div class = "buttons">
+                <nav>
+                    <a href="tutorials.html" class = "nav">Tutorials</a>
+                </nav>
+                <nav>
+                    <a href="projects.html" class = "nav">Projects</a>
+                </nav>
+             </div>
+        </header>
+    </div>
+    <div>
+        <div class = "text-section">
+            <section class = "solid">
+                <div class = "text-body">
+                    <h1>TUTORIALS</h1>
+                    <p>
+                        <a href="oop-tutorial.html">Object Oriented Programming</a><br>
+                        <a href="oop2-tutorial.html">Advanced Object Oriented Programming</a><br>
+                        <a href="arrays-tutorial.html">Arrays and Arraylists</a><br>
+                    </p>
+                </div>
+            </section>
+        </div>
+        <div class = "text-section">
+            <section class = "solid">
+                <div class = "text-body">
+                    <h1>Object Oriented Programming (OOP)</h1>
+                    <h2>Objects</h2>
+                    <p>
+                        <!-- https://www.w3schools.com/java/java_oop.asp -->
+                        Object oriented programming is one of the fundemental precepts of Java, 
+                        and understanding it is integral to using the language effectively.
+                    </p>
+                    <p>
+                        OOP is a type of programming that revolves around objects. Objects in 
+                        Java are a lot like real life objects, with attributes (variables) and 
+                        functions (methods).
+                    </p>
+                    <p>
+                        Each object, or instance, is created from a class, which acts as a 
+                        blueprint for the object, providing it with variables and methods 
+                        to use. However, the individual variable values between different 
+                        objects of can vary greatly, as each instance has its own set of values.
+                    </p>
+                    <p class = "example">
+                        For example, a football and a basketball would both be objects of the 
+                        Ball class.<br>
+                        Another example, Bob and George would both be objects of the Human 
+                        class
+                    </p>
+                    <p>
+                        [insert code here]
+                    </p>
+                    <p>
+                        OOP is very useful for the programming principle of Don't Repeat Yourself, 
+                        or DRY, as you can use one Class for many different purposes. 
+                    </p>
+                    <h2>Access</h2>
+                    <p>
+                        <!-- https://docs.oracle.com/Javase/tutorial/Java/JavaOO/accesscontrol.html -->
+			            <!-- I can shorten this -->
+                        All datatypes, primitive or Classes, and methods in Java all have an access 
+                        level, which defines which other classes can access the thing directly. <br>
+                    </p>
+                    <p class = "example">
+                        Class access means access within the same class. <br>
+                        Package access means access within the same package, or defined group of classes. <br>
+                        Subclass access means any subclass of the original class. <br>
+                        World access means any Class. <br>
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Modifier</th>
+                            <th>Class</th>
+                            <th>Package</th>
+                            <th>Subclass</th>
+                            <th>World</th>
+                        </tr>
+                        <tr>
+                            <th>public</th>
+                            <th>Y</th>
+                            <th>Y</th>
+                            <th>Y</th>
+                            <th>Y</th>
+                        </tr>
+                        <tr>
+                            <th>protected</th>
+                            <th>Y</th>
+                            <th>Y</th>
+                            <th>Y</th>
+                            <th>N</th>
+                        </tr>
+                        <tr>
+                            <th style = "font-style:italic">no modifier</th>
+                            <th>Y</th>
+                            <th>Y</th>
+                            <th>N</th>
+                            <th>N</th>
+                        </tr>
+                        <tr>
+                            <th>private</th>
+                            <th>Y</th>
+                            <th>N</th>
+                            <th>N</th>
+                            <th>N</th>
+                        </tr>
+                    </table>
+                    <p>
+                        [insert code here]
+                    </p>
+		            <h2>Parameters</h2>
+                    <p>
+                        A method can have parameters, which are variables used in the method that 
+                        are given values upon method call. Parameters act as a sort of input for 
+                        a method. These are very useful for flexible methods that return 
+                        different things depending on their input. 
+                    </p>
+                    <p>
+                        [insert code here]
+                    </p>
+                    <h2>Return Type</h2>
+                    <p>
+                        Each method must have a return type, which is its variable output. The 
+                        return type can be void, where it returns nothing. The return type can 
+                        also be a primitive type, like int, or an object reference. Each method 
+                        may only return one thing, though. 
+                    </p>
+                    <p>
+                        To use a return method, simply call the method wherever its return value 
+                        is used and Java will run the method and use the value returned in the 
+                        place of the method call. 
+                    </p>
+                    <p>
+                        [insert code here]
+                    <!-- </p> THIS IS COMMENTED OUT
+                    <h2>Some Types of Methods</h2>
+                    <p>
+                        For another class to be able to access and modify a private variable, a 
+                        getter/setter method must be used. A getter method, which is generally 
+                        named "get[VariableName]", returns a private variable of the object which 
+                        the outside class would not be able to access directly.  
+                    </p>
+                    <p>
+                        Similarly, a setter method, which is generally named "set[VariableName]", 
+                        takes in a parameter value and sets the private variable to the given value.
+                    </p>
+                    <p>
+                        [insert code here]
+                    </p>
+                    <p>
+                        Another kind of method is a helper method. Helper methods are private return 
+                        methods that assist with the function of another method. 
+                    </p>
+                    <p>
+                        [insert code here]
+                    </p> -->
+                    <h2>Overloading</h2>
+                    <p>
+                        Another thing to note about methods is that they can be overloaded, which 
+                        means an additional method declaration exists with the same name but different 
+                        parameters. These two methods are called the same thing, but can do different 
+                        functions. 
+                    </p>
+                    <p class = "example">
+                        For example, an area method can be overloaded to take one integer or two integers, 
+                        with the single integer input method returning the area of a square with given 
+                        side, and the two integer method input returning the area of a rectangle with 
+                        given length and width. <br>Void methods can also have overloads. 
+                    </p>
+                    <p>
+                        [insert code here]
+                    </p>
+                    <h2>Constructor</h2>
+                    <p>
+                        One method that every class must have in Java is a constructor, which runs 
+                        upon object creation and does any variable initializing or other things 
+                        that the object requires to function. You will have to implement these 
+                        things yourself. A constructor is unlike any other method, as it is always 
+                        declared as public, and does not have a return type. A constructor may also 
+                        have overloaded methods. <br>
+                        Sometimes, you want to have basic constructor functions within an overloaded 
+                        one. In this case, simply call the constructor with "[ClassName](parameter)" 
+                        at the start of the other constructor. <br>
+                        One thing to note is that the program will still compile without any defined 
+                        constructor. The program assumes that there exists a no-argument constructor. 
+                        However, direct calls to the constructor or any overloads will not work. 
+                    </p>
+                    <p>
+                        [insert code here]
+                    </p>
+                    <h2>Class Variables and Methods</h2>
+                    <p>
+                        Each method or variable can either belong to the class or the individual 
+                        object. We call these class or instance methods/variables. Instance 
+                        variables are created upon object creation, and each object has a copy. 
+                        Class variables, on the other hand, belong to the class and are universal 
+                        to all instances of the class. Class methods are similar, belonging to the 
+                        class and not the instance object, but they simply cannot use instance 
+                        variables. 
+                    </p>
+                    <p>
+                        Class variables and methods are declared in using the "static" keyword, 
+                        which comes after the access keyword. 
+                    </p>
+                    <p>
+                        [insert code here]
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

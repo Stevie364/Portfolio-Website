@@ -1,0 +1,116 @@
+:root{
+    --background: rgb(255, 255, 255);
+    --header: rgb(195, 223, 255);
+    --text: rgb(3, 52, 92);
+    --foreground: rgb(158, 211, 255);
+    --nav: rgb(0, 26, 48);
+    --link: rgb(1, 57, 103);
+    --example-back: rgb(105, 187, 255);
+
+}
+header{
+    background-color: var(--header);
+    border-color: var(--header);
+    border-width: 1px; 
+    border-style: solid;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5px;
+    height: 40px;
+
+    text-align: center;
+    font-size: 20px;
+}
+
+body{
+    background-color: var(--background);
+    background-repeat: no-repeat;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+title{
+    font-size: 40px;
+    color: var(--text);
+}
+h1{
+    font-size: 30px;
+    color: var(--text);
+}
+h2{
+    font-size: 25px;
+    color: var(--text);
+}
+section{
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+p{
+    font-size: 20px;
+    color: var(--text);
+}
+p.example{
+    border-radius: 2px;
+    border-style: solid;
+    background-color: var(--example-back);
+    border-color: var(--example-back);
+}
+nav{
+    position: relative;
+    float: right;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    color: var(--text);
+}
+div.text-section{
+    position: relative;
+    padding-bottom: 30px;
+}
+div.text-body{
+    position: relative;
+    padding: 1%;
+}
+div.header-container{
+    height: 50px;
+}
+div.buttons{
+    width: 70%;
+    float: right;
+    padding-right: 5%;
+    position: relative;
+}
+a{
+    font-size: 20px;
+    color: var(--link);
+    text-decoration: none;
+}
+a.nav{
+    color: var(--nav);
+}
+a:hover{
+    text-decoration: underline;
+}
+a.logo{
+    float: left;
+    padding-left: 2%;
+    text-align: left;
+    position: relative;
+    font-size: 30px;
+    text-decoration: none;
+}
+.solid{
+    background-color: var(--foreground);
+    border-color: var(--foreground);
+    border-width: 2px;
+    
+    border-style: solid;
+}
+table{
+    border-width: 5px;
+    border-color: var(--example-back);
+    border-style: solid;
+    color: var(--text);
+}
