@@ -14,7 +14,7 @@ header{
     border-width: 1px; 
     border-style: solid;
     border-radius: 10px;
-    position: relative;
+    position: fixed;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5px;
