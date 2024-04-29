@@ -27,11 +27,14 @@
         <div class = "text-section">
             <section class = "solid">
                 <div class = "text-body">
-                    <h1>TUTORIALS</h1>
+                    <h1>Tutorials</h1>
                     <p>
                         <a href="oop-tutorial.html">Object Oriented Programming</a><br>
                         <a href="oop2-tutorial.html">Advanced Object Oriented Programming</a><br>
                         <a href="arrays-tutorial.html">Arrays and Arraylists</a><br>
+                        <a href="sort-tutorial.html">Sorting</a><br>
+                        <a href="search-tutorial.html">Searching</a><br>
+                        <a href="recursion-tutorial.html">Recursion</a><br>
                     </p>
                 </div>
             </section>
@@ -40,7 +43,39 @@
             <section class = "solid">
                 <div class = "text-body">
                     <h1>Sorting</h1>
-                    
+                    <p>
+                        Sorting is very useful everywhere, as it allows you to identify patterns and locate individual elements 
+                        much easier than in an unsorted dataset. 
+                    </p>
+                    <p>
+                        There are many different kinds of sorting algorithms, varying in complexity, with some being much faster than
+                        others. Two examples of simple sorting algorithms are Bubble Sort and Selection Sort. 
+                    </p>
+                    <h2>Bubble Sort</h2>
+                    <p>
+                        Bubble Sort is named after the process in which functions. Bubble sort functions by moving an index from the left 
+                        side of the array to the right while swapping the index element and the one to its right if they are not in the right 
+                        order. This continues until the array is sorted. <br>
+                        What this looks like is elements floating, or bubbling, to the right side of the array. 
+                    </p>
+                    <img src="images/BubbleSortExample.png" alt="Bubble Sort Example">
+                    <p>
+                        The time complexity, how many operations the program must perform as a magnitude, is O(n^2). 
+                    </p>
+                    <h2>Selection Sort</h2>
+                    <p>
+                        Selection Sort works by constructing a sorted array by repetitively taking out the smallest element out of the array. <br>
+                        How this works in practice is you have an index for the smallest element found and an index for the constructed subarray. 
+                        Iterate through the array comparing the current element to the smallest element index and changing the index if the 
+                        current element is smaller. <br>
+                        Upon reaching the end, swap the element at the smallest element index with the one at the subarray construction index. 
+                        Now you have the smallest index in the first position. Repeat until sorted. 
+                    </p>
+                    <!-- https://www.geeksforgeeks.org/selection-sort/ -->
+                    <img src="images/SelectionSortExample.png" alt="Selection Sort Example">
+                    <p>
+                        The time complexity of Selection Sort is also O(n^2). However, it performs significantly fewer operations than Bubble Sort. 
+                    </p>
                 </div>
             </section>
         </div>

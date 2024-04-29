@@ -27,11 +27,14 @@
         <div class = "text-section">
             <section class = "solid">
                 <div class = "text-body">
-                    <h1>TUTORIALS</h1>
+                    <h1>Tutorials</h1>
                     <p>
                         <a href="oop-tutorial.html">Object Oriented Programming</a><br>
                         <a href="oop2-tutorial.html">Advanced Object Oriented Programming</a><br>
                         <a href="arrays-tutorial.html">Arrays and Arraylists</a><br>
+                        <a href="sort-tutorial.html">Sorting</a><br>
+                        <a href="search-tutorial.html">Searching</a><br>
+                        <a href="recursion-tutorial.html">Recursion</a><br>
                     </p>
                 </div>
             </section>
@@ -40,9 +43,31 @@
             <section class = "solid">
                 <div class = "text-body">
                     <h1>Recursion</h1>
-                    <p>
-                        
+                    <p> <!-- recursion lesson -->
+                        When a method calls itself, it is a recursive method. Recursion is often used to break down a complex 
+                        problem into smaller and smaller parts until the simplest case is reached. We call this the "base case" 
+                        of a recursive structure (a recursive structure may have multiple base cases). 
                     </p>
+                    <p>
+                        The three rules of recursion are:<br>
+                        - The method must call itself <br>
+                        - The method must have a base case <br>
+                        - The method must approach a base case <br>
+                    </p>
+                    <p>
+                        Be careful as if the method does not have a base case or does not approach it, the method will keep on calling 
+                        itself indefinitely, causing a Stack Overflow error where the program has run out of memory to store method calls. 
+                    </p>
+                    <p>
+                        Binary Search is a recursive searching algorithm, which splits a dataset in halves until it finds its 
+                        target in the middle of the dataset. This algorithm breaks down a larger dataset into smaller and smaller 
+                        pieces until it reaches its base case, where the dataset is size 1 and the target must have been found. 
+                    </p>
+                    <img src="images/BinarySearchExample.png" alt="Binary Search Example">
+                    <p>
+                        Here are some more examples of recursion. 
+                    </p>
+                    <img src="images/RecursionExamples.png" alt="Recursion Examples">
                 </div>
             </section>
         </div>

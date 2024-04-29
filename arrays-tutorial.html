@@ -48,7 +48,9 @@
                         Arrays are a great way to store a large amount of related information. Arrays can 
                         store both primitive datatypes and also object references. <br>
                         Each array is created with a length, which is the number of individual variables, called 
-                        elements, the array can store. 
+                        elements, the array can store. <br>
+                        Arrays can also be created with an array literal, which is a comma separated list of values 
+                        enclosed in braces. 
                     </p>
                     <p class = "example">
                         A real life example of an array would be a bookshelf, with each spot on the bookshelf 
@@ -57,8 +59,10 @@
                     <p>
                         Array elements can be accessed by specifying the index of the array. 
                     </p>
+                    <img src="images/ArrayIterationExample.png" alt="Iteration Example">
                     <p>
-                        [insert access and iteration code here]
+                        Be careful when using an array, however, as array indices begin at 0 and end at array length - 1. 
+                        If you call an index outside of these boundaries, you will get an error. 
                     </p>
                     <h2>
                         ArrayLists
@@ -74,15 +78,15 @@
                         As for the upsides, ArrayLists have several very useful features, that arrays do not have, through 
                         its methods. 
                     </p>
-                    <p>
-                        [insert cool method code here (like remove(location) and remove(object) and add(location))]
-                        [any other useful methods lol]
-                    </p>
+                    <img src="images/ArrayListExample.png" alt="ArrayList Example">
                     <p>
                         To use ArrayList, you must import the class from the java.util package. 
                     </p>
+
                     <p>
-                        [insert import code here?]
+                        A common mistake when removing elements from an ArrayList using iteration is incrementing the index 
+                        immediately after removing an element. Removing an element from an ArrayList shuffles all subsequent 
+                        elements down one index, so the next element after removing an element would be on the same index.  
                     </p>
                 </div>
             </section>

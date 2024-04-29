@@ -27,11 +27,14 @@
         <div class = "text-section">
             <section class = "solid">
                 <div class = "text-body">
-                    <h1>TUTORIALS</h1>
+                    <h1>Tutorials</h1>
                     <p>
                         <a href="oop-tutorial.html">Object Oriented Programming</a><br>
                         <a href="oop2-tutorial.html">Advanced Object Oriented Programming</a><br>
                         <a href="arrays-tutorial.html">Arrays and Arraylists</a><br>
+                        <a href="sort-tutorial.html">Sorting</a><br>
+                        <a href="search-tutorial.html">Searching</a><br>
+                        <a href="recursion-tutorial.html">Recursion</a><br>
                     </p>
                 </div>
             </section>
@@ -55,6 +58,7 @@
                         Mercedes extends Car, but does not extend Door. <br>
                         It can still use the methods of Door, however. 
                     </p>
+                    <img src="images/ClassRelationship.png" alt="Class to Class Relationship">
                     <p>
                         <!-- https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html -->
                         These subclasses inherit the methods and variables of the parent 
@@ -69,9 +73,7 @@
                         class name in the class header. After the keyword, simple put the 
                         name of the class which will become the superclass. 
                     </p>
-                    <p>
-                        [insert code here]
-                    </p>
+                    <img src="images/SubclassExample.png" alt="Subclass Example">
                     <p>
                         Something a subclass can do is override a superclass method. This means 
                         that the subclass creates a method of the same name and parameters 
@@ -85,18 +87,13 @@
                         the "super" keyword. This means that you can have an overridden 
                         method and still use the original method in the superclass. 
                     </p>
-                    <p>
-                        [insert code here]
-                    </p>
+                    <img src="images/OverrideExample.png" alt="Override Example">
                     <p>
                         This is especially useful for constructors, as you can make a direct 
                         call to a superclass constructor with "super(parameters)" to set up 
                         the superclass part of the object. Do note that the call must be at 
                         the start of the constructor, and that if a call is not made the 
                         program automatically calls the no-argument superclass constructor. 
-                    </p>
-                    <p>
-                        [insert code here]
                     </p>
                     <h2>
                         Abstraction
@@ -109,9 +106,7 @@
                         Abstract classes may also have regular implemented methods. Abstract 
                         methods are defined with the "abstract" keyword. 
                     </p>
-                    <p>
-                        [insert code here]
-                    </p>
+                    <img src="images/AbstractExample.png" alt="Abstraction Example">
                     <p>
                         Abstract classes cannot be used to create objects, but can be used in 
                         polymorphism. 
@@ -124,9 +119,7 @@
                         have no constructor, and only have abstract methods. However, methods in an 
                         interface are not defined with abstract, as it is implied that they are. 
                     </p>
-                    <p>
-                        [insert code here]
-                    </p>
+                    <img src="images/InterfaceExample.png" alt="Interface Example">
                     <p>
                         An interface exists for the purpose of pre-defining methods that a class 
                         must have. A class that implements an interface must create a concrete 
@@ -152,13 +145,16 @@
                         However, the actual method is determined in run-time and the program runs the 
                         method of the object the variable refers to. 
                     </p>
-                    <p class = "example">
+                    <p>
                         Polymorphism is very useful for running different methods from the same line of 
                         code, by simply switching the object the variable refers to. 
                     </p>
-                    <p>
-                        [insert code here]
+                    <p class = "example">
+                        For example, a superclass Ball could run roll() on both subclasses Basketball and Baseball. 
                     </p>
+                    <img src="images/Polymorphism.png" alt="Polymorphism">
+                    <p></p>
+                    <img src="images/PolymorphismExample.png" alt="Polymorphism Example">
                 </div>
             </section>
         </div>

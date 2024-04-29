@@ -14,7 +14,7 @@ header{
     border-width: 1px; 
     border-style: solid;
     border-radius: 10px;
-    position: fixed;
+    position: relative;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5px;
@@ -113,4 +113,9 @@ table{
     border-color: var(--example-back);
     border-style: solid;
     color: var(--text);
+}
+img{
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
 }
