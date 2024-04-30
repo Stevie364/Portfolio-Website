@@ -33,6 +33,11 @@ title{
     font-size: 40px;
     color: var(--text);
 }
+h0{
+    font-size: 40px;
+    color: var(--text);
+    font-weight: 1000;
+}
 h1{
     font-size: 30px;
     color: var(--text);
@@ -118,4 +123,8 @@ img{
     border-style: solid;
     border-color: transparent;
     border-radius: 10px;
+}
+img.solid-border{
+    border-color: var(--example-back);
+    border-width: 10px;
 }
